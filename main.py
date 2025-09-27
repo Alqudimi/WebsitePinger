@@ -25,7 +25,7 @@ class WebsitePinger:
         else:
             return [
                 {"url": "https://programmers-union.onrender.com", "method": "GET"},
-                {"url": "https://website-pinger.onrender.com/", "method": "GET"},
+                {"url": "https://website-pinger-alqudimi-technology.onrender.com", "method": "GET"},
             ]
     
     def save_websites(self):
