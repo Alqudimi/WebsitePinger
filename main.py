@@ -21,8 +21,8 @@ class WebsitePinger:
             
             return [
                 {"url": "https://programmers-union.onrender.com", "method": "GET"},
-              #  {"url": "https://jsonplaceholder.typicode.com/posts/1", "method": "GET"},
-               # {"url": "https://api.github.com", "method": "GET"},
+                {"url": "https://website-pinger.onrender.com/", "method": "GET"},
+               
             ]
     
     def save_websites(self):
@@ -68,7 +68,7 @@ class WebsitePinger:
             thread = threading.Thread(target=self.send_ping, args=(website,))
             threads.append(thread)
             thread.start()
-            time.sleep(0.5)  # فواصل صغيرة بين بدء الخيوط
+            time.sleep(0.5)  
         
         
         for thread in threads:
@@ -83,7 +83,7 @@ class WebsitePinger:
             while self.is_running:
                 self.ping_all()
                 
-                # انتظار الفاصل الزمني
+                
                 for _ in range(self.interval):
                     if not self.is_running:
                         break
