@@ -25,6 +25,7 @@ class WebsitePinger:
         else:
             return [
                 {"url": "https://programmers-union.onrender.com", "method": "GET"},
+                {"url": "https://chatbot-nexusai.onrender.com", "method": "GET"},
                 {"url": "https://website-pinger-alqudimi-technology.onrender.com", "method": "GET"},
             ]
     
