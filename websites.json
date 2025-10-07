@@ -8,6 +8,10 @@
     "method": "GET"
   },
   {
+    "url": "https://n8n-1-80-0-jjqe.onrender.com/",
+    "method": "GET"
+  },
+  {
     "url": "https://website-pinger-alqudimi-technology.onrender.com/",
     "method": "GET"
   }
