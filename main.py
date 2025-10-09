@@ -90,7 +90,7 @@ class WebsitePinger:
         self.is_running = False
         print("إيقاف الخدمة...")
 
-pinger = WebsitePinger(interval_minutes=13)
+pinger = WebsitePinger(interval_minutes=3)
 
 @app.get("/")
 async def root():
